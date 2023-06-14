@@ -1,0 +1,17 @@
+.checkcart {
+  display: flex;
+  padding: 20px;
+ /* padding-top: 0px; */
+  background-color: white;
+  height: max-content;
+}
+
+.checkcart_ad {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.checkcart_title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}

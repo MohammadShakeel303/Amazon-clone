@@ -1,0 +1,43 @@
+.home {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.home_carousel_container {
+  width: 100%;
+  margin: 0 auto;
+  height: 35vh;
+  position: relative;
+  border-radius: 0.5rem;
+}
+.home_carousel {
+  position: relative;
+  width: 100%;
+
+  display: grid;
+  place-items: center;
+  transition: all 0.25s ease-in-out;
+  text-align: center;
+}
+
+.carousel_img {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: -1;
+  height: 600px;
+  margin-bottom: -150px;
+}
+
+.home_row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.home_adv {
+ width: 80%;
+align-items: center; 
+margin: 10px auto ;
+cursor: pointer;
+
+
+}
